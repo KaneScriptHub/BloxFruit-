@@ -125,7 +125,7 @@ button.MouseButton1Click:Connect(function()
         button.BackgroundColor3 = Color3.new(0, 1, 0)
         while teleportEnabled do
             teleportToChest()
-            task.wait(0.1)
+            task.wait(0.000000000000001)
         end
     else
         button.Text = "Nhặt Chest OFF"
